@@ -7,51 +7,85 @@
 </head>
 
 <body>
-    <header class="d-flex j-c-sp-btw al-it-center">
+    <header class="d-flex j-c-sp-btw al-it-center p-h-16">
         <h3>Portfolio</h1>
 
-        <nav>
-            <ul class="d-flex j-c-sp-btw li-st-none">
-                <li class="padding-8">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li class="padding-8"><a href="#" class="nav-link">About</a></li>
-                <li class="padding-8"><a href="#" class="nav-link">Services</a></li>
-                <li class="padding-8"><a href="#" class="nav-link">Portfolio</a></li>
-                <li class="padding-8"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul class="d-flex j-c-sp-btw li-st-none">
+                    <li class="p-8">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="p-8"><a href="#" class="nav-link">About</a></li>
+                    <li class="p-8"><a href="#" class="nav-link">Services</a></li>
+                    <li class="p-8"><a href="#" class="nav-link">Portfolio</a></li>
+                    <li class="p-8"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
     </header>
-    <section class="d-flex j-c-sp-btw">
+    <section class="d-flex j-c-sp-btw p-h-16">
         <aside>
-            <h3 class="margin-0">Hello It's Me</h3>
-            <h1 class="margin-0"> Mahmuda Alam</h1>
-            <h4 class="margin-0">And I'm a
+            <h3 class="m-0">Hello It's Me</h3>
+            <h1 class="m-0"> Mahmuda Alam</h1>
+            <h4 class="m-0">And I'm a
                 <a href="#" class="text-color">Fronted Developer</a>
             </h4>
-            <p class="p-weidth">
+            <p class="width-400">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ea optio dolorum ut impedit suscipit
                 quos eveniet rerum quidem atque, sit ullam doloremque tempora, dolores vel nulla quas quis quam.
             </p>
-            <button>Social Link Icon</button>
-            </br>
-            <button class="btn-color">Download CV</button>
+            <div class="btn-container">
+                <button class="btn-default btn-social-link">Social Link Icon</button>
+                <button class="btn-default btn-download-cv">Download CV</button>
+            </div>
         </aside>
-        <img src="#" alt="#" class="profile-pic">
+        <img src="/assets/images/javaScript.png" alt="#" class="profile-pic">
     </section>
 
-    <section>
+    <section class="projects">
         <h2>Projects</h2>
-        <h4>First Project</h4>
-        <h4>Second Project</h4>
-        <h4>Third Project</h4>
-        <section>
-            <h3>Contact Information</h3>
-            <input type="text" placeholder="Name"><br />
-            <input type="email" placeholder="Email"><br />
-            <input type="contact" placeholder="Contact number"><br />
-        </section>
+        <div class="d-flex d-center project-description-container">
+            <div class="project-description">
+                <h4>First Project</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem tenetur magni velit
+                    aliquam
+                    cumque molestias delectus, tempora ipsa iste quaerat, sequi reprehenderit, laborum perspiciatis nisi
+                    corrupti quisquam! Exercitationem, esse.
+                </p>
+            </div>
+
+            <div class="project-description">
+                <h4>Second Project</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem tenetur magni velit
+                    aliquam
+                    cumque molestias delectus, tempora ipsa iste quaerat, sequi reprehenderit, laborum perspiciatis nisi
+                    corrupti quisquam! Exercitationem, esse.
+                </p>
+            </div>
+
+            <div class="project-description">
+                <h4>Third Project</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem tenetur magni velit
+                    aliquam
+                    cumque molestias delectus, tempora ipsa iste quaerat, sequi reprehenderit, laborum perspiciatis nisi
+                    corrupti quisquam! Exercitationem, esse.
+                </p>
+            </div>
+        </div>
     </section>
+    <footer class="footer">
+        <div class="d-flex j-c-sp-btw p-h-16">
+            <label class="contact-info-text">Contact Information</label>
+            <div class="contact-info">
+                <label>email: mahmuda.alam@gmail.com</label>
+                <label>Contact number: 01712345678</label>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
